@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+    <responsible/>
+    <teammember/>
+    <project/>
+    <engine/>
+    <enginecontrolunit/>
+    <country/>
+    <gear/>
+    <developmenttype/>
+    <vehicle/>
+    <emissionlevel/>
+    <datasetitem/>
+    <datasetrevision/>
+    <integrationlevel/>
+    <function/>
+    <labelitem/>
+    <labelrevision/>
+    <difference/>
+    <rating/>
+    <ratingchange/>
+    <assessment/>
+    <assessmentchange/>
+    <affectedrating/>
+</dataset>
