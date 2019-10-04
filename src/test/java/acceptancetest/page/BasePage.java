@@ -39,7 +39,10 @@ public class BasePage {
         return null ;
     }
 
+    public String getTitle() {
 
+        return driver.getTitle();
+    }
 
 
 

@@ -36,10 +36,10 @@ public class DriverUtil {
 
 
         // initialize the Spotify Page Url
-        targetSpotifyUrl = System.getProperty("testautomation.targetWebUIUrl");
+        targetSpotifyUrl = System.getProperty("testautomation.targetSpotifyUrl");
 
         // initialize the Netflix Page Url
-        targetNetflixUrl = System.getProperty("testautomation.targetRestApiUrl");
+        targetNetflixUrl = System.getProperty("testautomation.targetNetflixUrl");
 
 
         // initialize which browser to use
@@ -61,7 +61,7 @@ public class DriverUtil {
         return driver;
     }
 
-    public static String getTargetWebUrl() {
+    public static String getSpotifyUrl() {
         if(targetSpotifyUrl == null || targetSpotifyUrl.isEmpty()) {
             LOG.error("The UI url of the target test application was not specified or is empty in " + confFile);
             System.exit(0);
@@ -69,7 +69,7 @@ public class DriverUtil {
 
         return targetSpotifyUrl;
     }
-    public static String getTargetRestUrl() {
+    public static String getNetflixUrl() {
         if(targetNetflixUrl == null || targetNetflixUrl.isEmpty()) {
             LOG.error("The REST API url of the target test application was not specified or is empty in " + confFile);
             System.exit(0);
